@@ -61,7 +61,7 @@ python mlc-bw-sweep.py \
 ### 2. Post-Process Results
 
 ```bash
-python mlc-postprocess.py --results-dir results/20260301/max_bw/node0
+python mlc-bw-postprocess.py --results-dir results/20260301/max_bw/node0
 ```
 
 This generates `summary.xlsx` in the results folder with:
